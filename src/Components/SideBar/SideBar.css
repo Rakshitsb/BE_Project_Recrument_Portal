@@ -1,0 +1,26 @@
+.sidebar {
+  width: 200px;
+  background-color: #334155; /* slate */
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.2s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #475569; /* slightly lighter slate */
+}
+
+.sidebar-link.active {
+  background-color: #0ea5e9; /* sky blue for active link */
+}
